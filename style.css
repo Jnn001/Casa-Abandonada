@@ -6,6 +6,22 @@ body {
     margin-top: 80px;
 }
 button {
+    width: 100px;
+    height: 50px;
     background: white;
     color: #2e857b;
+    border: solid 2.5px #102f2c;
+    margin-right: 10px;
+}
+
+.passo-ativo {
+    margin-bottom: 50px;
+}
+.b-avancar-1o {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.b-avancar-ultimo {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
