@@ -1,1 +1,11 @@
-
+body {
+    background: #42baad;
+    color: white;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+button {
+    background: white;
+    color: #2e857b;
+}
