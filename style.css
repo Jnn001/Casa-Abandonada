@@ -19,15 +19,3 @@ button {
     margin-right: 10px;
     margin-left: 10px;
 }
-
-.passo-ativo {
-    margin-bottom: 80px;
-}
-.b-avancar-1o {
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-}
-.b-avancar-ultimo {
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-}
