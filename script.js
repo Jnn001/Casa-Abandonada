@@ -3,7 +3,7 @@ const avanca = document.querySelectorAll('.b-avanca');
 avanca.forEach = (button => {
   button.addEventListener('click', function(){
     const atual = document.querySelector('.ativo');
-    const proximoPasso = 'passo' + this.getAtribute('data-avancar');
+    const proximoPasso = 'passo-' + this.getAtribute('data-avancar');
 
     ataul.classList.remove('ativo');
     document.getElementById('proximoPasso').classList.add('ativo');
