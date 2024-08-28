@@ -19,3 +19,9 @@ button {
     margin-right: 10px;
     margin-left: 10px;
 }
+.passo {
+    display: none;
+}
+.passo-ativo {
+    display: block;
+}
