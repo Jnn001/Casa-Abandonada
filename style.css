@@ -1,11 +1,21 @@
+header{
+    padding-top: 30px;
+    paddin-bottom: 30px;
+    padding-left: 30px;
+    font-family: Macondo;
+    font-size: 30
+}
 body {
     font-family: Quicksand;
     background: #42baad;
     color: white;
     margin: 0px;
-    margin-top: 100px;
+    margin-top: 0px;
+}
+main {
     display: flex;
     justify-content: center;
+}
 }
 p {
     font-size: 25px;
