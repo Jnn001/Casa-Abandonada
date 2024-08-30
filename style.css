@@ -1,8 +1,8 @@
 header{
-    padding-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    color: #ffc288;
     font-size: 20px;
     border-bottom: solid 1px white;
 }
@@ -18,10 +18,11 @@ main {
     display: flex;
     justify-content: center;
     padding-left: 0px;
-    margin-top: 100px;
-    background: #1b1936;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 5%;
+    background: #1d2434;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 5%;
 }
 }
 p {
@@ -33,10 +34,11 @@ button {
     width: 100px;
     height: 40px;
     background: white;
-    color: #2e857b;
-    border: solid 2.5px #055f56;
+    color: white;
+    border: solid 2.5px #ffc288;
     margin-right: 10px;
     margin-left: 10px;
+    background: #101010;
 }
 .passo {
     display: none;
