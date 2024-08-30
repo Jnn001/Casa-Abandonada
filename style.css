@@ -17,6 +17,7 @@ body {
 main {
     display: flex;
     justify-content: center;
+    padding-left: 0px;
     margin-top: 100px;
     background: #1b1936;
     margin-left: 200px;
@@ -25,6 +26,7 @@ main {
 }
 p {
     font-size: 25px;
+
 }
 button {
     font-family: Quicksand;
@@ -38,7 +40,10 @@ button {
 }
 .passo {
     display: none;
-}
+
+
+}  
 .passo.ativo {
     display: block;
+    text-align: center;
 }
