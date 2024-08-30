@@ -2,12 +2,12 @@ header{
     padding-top: 30px;
     paddin-bottom: 30px;
     padding-left: 30px;
-    font-family: Macondo;
+
     font-size: 30
 }
 body {
     font-family: Quicksand;
-    background: #42baad;
+    background: black;
     color: white;
     margin: 0px;
     margin-top: 0px;
