@@ -1,25 +1,30 @@
 header{
     padding-top: 30px;
-    paddin-bottom: 30px;
+    padding-bottom: 20px;
     padding-left: 30px;
 
-    font-size: 30
+    font-size: 20px;
+    border-bottom: solid 1px white;
 }
 body {
     font-family: Quicksand;
-    background: black;
+    background: #101010;
     color: white;
     margin: 0px;
-    margin-top: 0px;
+
+    
 }
 main {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
+    background: #1b1936;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 }
 p {
     font-size: 25px;
-    text-align: center;
 }
 button {
     font-family: Quicksand;
