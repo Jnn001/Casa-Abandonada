@@ -15,14 +15,14 @@ body {
     
 }
 main {
-    display: flex;
-    justify-content: center;
+    padding-top: 1%;
     padding-left: 0px;
+    padding-bottom: 4%;
     margin-top: 5%;
-    background: #1d2434;
+    background: #0f1522;
     margin-left: 20%;
     margin-right: 20%;
-    padding-bottom: 5%;
+    justify-content: center;
 }
 }
 p {
@@ -38,6 +38,11 @@ button {
     margin-right: 10px;
     margin-left: 10px;
     background: #101010;
+    border-radius: 20px;
+}
+
+.botoes {
+    margin-top: 0%
 }
 
 button:hover {
@@ -54,4 +59,15 @@ button:hover {
 .passo.ativo {
     display: block;
     text-align: center;
+
+}
+img {
+    max-width: 20%;
+    align-items: center;
+}
+.parte-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
