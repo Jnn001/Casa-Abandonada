@@ -32,6 +32,77 @@ p {
 button {
     font-family: Quicksand;
     padding: 10px;
+    max-width: 30%;
+    color: white;
+    border: solid 2.5px #ffcd48;
+    margin: 10px;
+    background: #101010;
+    border-radius: 100px;
+}
+
+.botoes {
+    margin-top: 0%
+}
+
+button:hover {
+    background: #ffcd48;
+    color: black;
+    border: solid 2.5px #101010;
+}
+
+.passo {
+    display: none;
+
+
+}  
+.passo.ativo {
+    display: block;
+    text-align: center;
+
+}
+img {
+    max-width: 40%;
+    align-items: center;
+}
+.parte-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    color: #ffcd48;
+    font-size: 20px;
+    border-bottom: solid 1px white;
+}
+body {
+    font-family: Quicksand;
+    background: #101010;
+    color: white;
+    margin: 0px;
+
+    
+}
+main {
+    padding-top: 1%;
+    padding-left: 0px;
+    padding-bottom: 4%;
+    margin-top: 5%;
+    background: #0f1522;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+}
+}
+p {
+    font-size: 25px;
+
+}
+button {
+    font-family: Quicksand;
+    padding: 10px;
     height: 40px;
     color: white;
     border: solid 2.5px #ffcd48;
