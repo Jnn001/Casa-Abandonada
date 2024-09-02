@@ -31,12 +31,11 @@ p {
 }
 button {
     font-family: Quicksand;
-    width: 100px;
+    padding: 10px;
     height: 40px;
     color: white;
     border: solid 2.5px #ffcd48;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 10px;
     background: #101010;
     border-radius: 20px;
 }
