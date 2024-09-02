@@ -32,7 +32,7 @@ p {
 button {
     font-family: Quicksand;
     padding: 10px;
-    height: 40px;
+    height: 30%;
     color: white;
     border: solid 2.5px #ffcd48;
     margin: 10px;
@@ -41,7 +41,7 @@ button {
 }
 
 .botoes {
-    margin-top: 0%
+
 }
 
 button:hover {
