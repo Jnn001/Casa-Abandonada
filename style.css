@@ -38,6 +38,7 @@ button {
     margin: 10px;
     background: #101010;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .botoes {
