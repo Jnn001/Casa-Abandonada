@@ -32,12 +32,12 @@ p {
 button {
     font-family: Quicksand;
     padding: 10px;
-    height: 30%;
+    max-width: 30%;
     color: white;
     border: solid 2.5px #ffcd48;
     margin: 10px;
     background: #101010;
-    border-radius: 20px;
+    border-radius: 100px;
 }
 
 .botoes {
