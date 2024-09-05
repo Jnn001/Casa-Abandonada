@@ -1,575 +1,476 @@
-<html lang="pt-br"><head><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=Macondo&amp;family=Quicksand:wght@300..700&amp;display=swap" rel="stylesheet">
-    
+<html lang="pt-BR"><head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&amp;display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Abandonada</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Preso na Floresta</title>
 </head>
-<body><header>CASA ABANDONADA</header>
-    
-    <main>
-        <!--passo 0-->
-        <div class="passo ativo" id="passo-0">
-            <p>Você ouviu uma história sobre uma casa abandonada misteriosa em sua cidade e decidiu explorar esse lugar e descobrir os seus segredos. Cada escolha sua terá uma consequência diferente e sua primeira escolha será o que levar para explorar o lugar.</p>
-            <div class="parte-inferior">
-                <img src="imagem-mochila.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="1">Lanterna, câmera, caderno e lápis</button>
-                    <button class="b-avancar" data-avancar="2">Chave de fenda, corda e pé-de-cabra</button>
-                </div>
-            </div>
-        </div>
-        <!--passo 1-->
-        <div class="passo" id="passo-1">
-            <p>Estava de noite e você chegou na frente da casa, era uma casa grande e antiga, você tentou abrir a porta, mas ela estava trancada. Como você irá entrar lá?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="3">Procurar por uma chave escondida próxima à porta</button>
-                    <button class="b-avancar" data-avancar="4">Procurar outra entrada pelos outros lados da casa</button>
-                <button class="b-avancar" data-avancar="5">Investigar se há um porão ou entrada subterrânea</button></div>
-            </div>
-        </div>
-    <!--passo 2-->
-        <div class="passo" id="passo-2">
-            <p>Estava de noite e você chegou na frente da casa, era uma casa grande e antiga, você tentou abrir a porta, mas ela estava trancada. Como você irá entrar lá?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="6">Usar o pé-de-cabra para abrir a porta</button>
-                    <button class="b-avancar" data-avancar="7">Usar a chave de fenda para tirar a
-fechadura da porta e abrí-la</button>
-                <button class="b-avancar" data-avancar="8">Procurar por uma chave escondida próxima à porta</button><button class="b-avancar" data-avancar="9">Usar a corda para subir por uma janela que estava
-aberta no andar de cima</button><button class="b-avancar" data-avancar="10">Procurar outra entrada pelos outros lados da casa</button></div>
-            </div>
-        </div><!--passo 3--><div class="passo" id="passo-3">
-            <p>Você usou a lanterna e encontrou uma chave debaixo de um vaso de planta, você abriu a porta e entrou na casa. Dentro dela, você viu vários móveis empoeirados, uma escada, uma entrada para a cozinha e outra para a sala de estar. Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="11">Explorar a cozinha</button>
-                    <button class="b-avancar" data-avancar="12">Subir a escada e explorar o segundo andar</button>
-                <button class="b-avancar" data-avancar="13">Explorar a sala de estar</button></div>
-            </div>
-        </div><!--passo 4--><div class="passo" id="passo-4">
-            <p>Você encontrou uma janela quebrada na parte de trás da casa, você conseguiu destrancar a janela e entrou nos fundos da casa. Lá você encontrou um banheiro, uma porta para outro cômodo, e uma entrada para a parte da frente dentro da casa. Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="14">Seguir pela entrada para a parte da frente da casa</button>
-                    <button class="b-avancar" data-avancar="15">Explorar o banheiro</button>
-                <button class="b-avancar" data-avancar="16">Verificar se há alguma pista ou documento deixado para trás na área onde entrou</button><button class="b-avancar" data-avancar="17">Explorar o outro cômodo</button></div>
-            </div>
-        </div><!--passo 5--><div class="passo" id="passo-5">
-            <p>Você encontrou uma entrada subterrânea, mas estava trancada, você foi para a parte de trás da casa e achou uma janela quebrada e entrou nos fundos da casa. Lá você encontrou um banheiro, uma porta para outro cômodo, e uma entrada para a parte da frente dentro da casa. Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="14">Seguir pela entrada para a parte da frente da casa</button>
-                    <button class="b-avancar" data-avancar="15">Explorar o banheiro</button>
-                <button class="b-avancar" data-avancar="16">Verificar se há alguma pista ou documento deixado para trás na área onde entrou</button><button class="b-avancar" data-avancar="17">Explorar o outro cômodo</button></div>
-            </div>
-        </div><!--passo 6--><div class="passo" id="passo-6">
-            <p>Você conseguiu quebrar a porta e entrar na casa.
-Dentro dela, você viu vários móveis empoeirados, uma escada,
-uma entrada para um cômodo na direita e outra na esquerda.
-Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="18">Explorar o cômodo a esquerda</button>
-                    <button class="b-avancar" data-avancar="19">Subir a escada e explorar o segundo andar</button>
-                <button class="b-avancar" data-avancar="20">Explorar o cômodo a direita</button></div>
-            </div>
-        </div><!--passo 7--><div class="passo" id="passo-7">
-            <p>Você conseguiu tirar a fechadura da porta e entrar na casa.
-Dentro dela, você viu vários móveis empoeirados, uma escada,
-uma entrada para um cômodo na direita e outra na esquerda.
-Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="18">Explorar o cômodo a esquerda</button>
-                    <button class="b-avancar" data-avancar="19">Subir a escada e explorar o segundo andar</button>
-                <button class="b-avancar" data-avancar="20">Explorar o cômodo a direita</button></div>
-            </div>
-        </div><!--passo 8--><div class="passo" id="passo-8">
-            <p>Estava muito escuro e você não achou nenhuma chave, então usou
-o pé-de-cabra, abriu a porta e entrou na casa. Dentro dela, você viu
-vários móveis empoeirados, uma escada, uma entrada para um
-cômodo na esquerda e outra na direita. Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="18">Explorar o cômodo a esquerda</button>
-                    <button class="b-avancar" data-avancar="19">Subir a escada e explorar o segundo andar</button>
-                <button class="b-avancar" data-avancar="20">Explorar o cômodo a direita</button></div>
-            </div>
-        </div><!--passo 9--><div class="passo" id="passo-9">
-            <p>Com muito esforço, você consegue subir e entrar no andar de cima da casa, lá encontra um corredor com várias portas fechadas. Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-corredor.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="21">Explorar a porta mais próxima</button>
-                    <button class="b-avancar" data-avancar="22">Explorar a porta mais distante</button>
-                <button class="b-avancar" data-avancar="23">Explorar outra porta</button></div>
-            </div>
-        </div><!--passo 10--><div class="passo" id="passo-10">
-            <p>Você encontrou uma janela quebrada na parte de trás da casa, você conseguiu destrancar a janela e entrou nos fundos da casa. Lá você encontrou uma entrada para um cômodo na esquerda, uma porta para outro cômodo na direita, e uma entrada para a parte da frente dentro da casa. Onde você começará a explorar?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="24">Explorar o cômodo da esquerda</button>
-                    <button class="b-avancar" data-avancar="25">Seguir pela entrada para a parte da frente da casa</button>
-                <button class="b-avancar" data-avancar="26">Verificar se há alguma pista ou documento deixado para trás na área onde entrou</button><button class="b-avancar" data-avancar="27">Explorar o outro cômodo</button></div>
-            </div>
-        </div><!--passo 11--><div class="passo" id="passo-11">
-            <p>Antes de ir para cozinha, você ouve sons naquela direção e se assusta. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="28">Investigar os sons com a lanterna em mãos</button>
-                    <button class="b-avancar" data-avancar="13">Voltar silenciosamente e explorar a sala de estar primeiro</button>
-                <button class="b-avancar" data-avancar="12">Voltar silenciosamente e explorar o segundo andar primeiro</button><button class="b-avancar" data-avancar="29">Sair da casa e desistir</button></div>
-            </div>
-        </div><!--passo 12--><div class="passo" id="passo-12">
-            <p>No segundo andar, você vê um corredor com várias portas fechadas. Em qual delas você irá?</p>
-            <div class="parte-inferior">
-                <img src="imagem-corredor.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="30">A porta mais próxima</button>
-                    <button class="b-avancar" data-avancar="31">A porta mais distante</button>
-                <button class="b-avancar" data-avancar="32">Outra porta</button></div>
-            </div>
-        </div><!--passo 13--><div class="passo" id="passo-13">
-            <p>Na sala de estar, você vê vários quadros com pessoas com expressões sérias, móveis antigos, um piano empoeirado, um lareira apagada e, em cima dela, um espelho com moldura de ouro. Você percebe que algumas teclas do piano não estão com poeira, você toca as teclas e tenta fazer várias combinções, até que, em uma delas, ouve um som na parede. Você se aproxima e vê uma pedra um pouco deslocada, você tira a pedra, encontra um mapa da casa, com todas as passagens secretas desenhadas, e uma chave dourada e pega eles. O que você fará em seguida?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="33">Explorar o porão da casa, procurar por pistas ou segredos escondidos</button>
-                    <button class="b-avancar" data-avancar="34">Seguir o mapa encontrado para descobrir possíveis locais ocultos na casa</button>
-                <button class="b-avancar" data-avancar="35">Examinar o espelho com moldura de ouro em busca de pistas</button></div>
-            </div>
-        </div><!--passo 14--><div class="passo" id="passo-14">
-            <p>Antes de chegar você ouve sons naquela direção e se assusta. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="36">Investigar os sons com a lanterna em mãos</button>
-                    <button class="b-avancar" data-avancar="37">Se esconder no banheiro</button>
-                <button class="b-avancar" data-avancar="38">Sair da casa e desistir</button></div>
-            </div>
-        </div><!--passo 15--><div class="passo" id="passo-15">
-            <p>No banheiro você encontra alguns objetos nas gavetas e pega uma navalha. você saiu do banheiro e vai até a outra porta mas ela está trancada. O que você fará?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="14">Seguir pela entrada para a parte da frente da casa</button>
-                    <button class="b-avancar" data-avancar="39">Verificar se há alguma pista ou documento deixado para trás na área onde entrou</button>
-                </div>
-            </div>
-        </div><!--passo 16--><div class="passo" id="passo-16">
-            <p>Você encontrou uma chave embaixo de um dos móveis, depois de um tempo você percebeu que uma das portas de lá estava trancada, você usou a chave para tentar abrir, mas não era a certa. O que você fará?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="14">Seguir pela entrada para a parte da frente da casa</button>
-                    <button class="b-avancar" data-avancar="40">Explorar o banheiro</button>
-                </div>
-            </div>
-        </div><!--passo 17--><div class="passo" id="passo-17">
-            <p>A porta deste cômodo está trancada. O que você fará?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="14">Seguir pela entrada para a parte da frente da casa</button>
-                    <button class="b-avancar" data-avancar="40">Explorar o banheiro</button>
-                <button class="b-avancar" data-avancar="39">Verificar se há alguma pista ou documento deixado para trás na área onde entrou</button></div>
-            </div>
-        </div><!--passo 18--><div class="passo" id="passo-18">
-            <p>Antes de ir para lá, você ouve sons naquela direção e se assusta. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="41">Investigar</button>
-                    <button class="b-avancar" data-avancar="19">Voltar silenciosamente e explorar o segundo andar primeiro</button>
-                <button class="b-avancar" data-avancar="20">Voltar silenciosamente e explorar o cômodo da direita primeiro</button><button class="b-avancar" data-avancar="42">Sair da casa e desistir</button></div>
-            </div>
-        </div><!--passo 19--><div class="passo" id="passo-19">
-            <p>No segundo andar, você vê um corredor com várias portas fechadas. Em qual delas você irá?</p>
-            <div class="parte-inferior">
-                <img src="imagem-corredor.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="22">A porta mais próxima</button>
-                    <button class="b-avancar" data-avancar="23">A porta mais distante</button>
-                <button class="b-avancar" data-avancar="21">Outra porta</button></div>
-            </div>
-        </div><!--passo 20--><div class="passo" id="passo-20">
-            <p>Você vai até lá, estava muito escuro e enquanto andava, você esbarrou acidentalmente em um piano, que fez um som alto. Apareceu uma pessoa com uma vela procurando você, mas você se escondeu debaixo da mesa. A pessoa tocou algumas notas do piano e quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura escondida em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você usou seu pé-de-cabra para abrir a passagem secreta, desceu o túnel e encontrou um laboratório e algumas anotações. Você pegou uma vela, leu as anotações e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    <button class="b-avancar" data-avancar="57">Pegar algumas coisas e sair da casa</button>
-                </div>
-            </div>
-        </div><!--passo 21--><div class="passo" id="passo-21">
-            <p>Você foi até lá e viu que dentro tinha uma pequena biblioteca, estava escuro, mas você conseguiu ver que havia alguns livros de biologia e química. Enquanto explorava o cômodo, Apareceu uma pessoa com uma vela e te pegou. Você conseguiu se soltar e foi até um armário na sala de estar, no andar de baixo. A pessoa também foi para a sala para te procurar, depois ela tocou algumas notas de um piano que estava ali. Quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura escondida em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você usou seu pé-de-cabra para abrir a passagem secreta, desceu o túnel e encontrou um laboratório e algumas anotações. Você pegou uma vela, leu as anotações e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-corredor.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    <button class="b-avancar" data-avancar="57">Pegar algumas coisas e sair da casa</button>
-                </div>
-            </div>
-        </div><!--passo 22--><div class="passo" id="passo-22">
-            <p>Você tentou abrir a porta, mas ela estava trancada. Apareceu uma pessoa, que te pegou, te levou para o porão e te prendeu. A pessoa faz parte de uma sociedade secreta que esconde um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 23--><div class="passo" id="passo-23">
-            <p>Você foi até lá, abriu a porta e viu uma pessoa sentada escrevendo algo em um livro sobre a escrivaninha. A pessoa te viu e começou a te perseguir, você desceu a escada, foi até a sala de estar e se escondeu no armário. A pessoa também foi para a sala com uma vela para te procurar, depois ela tocou algumas notas de um piano que estava ali. Quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura secreta em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você usou seu pé-de-cabra para abrir a passagem secreta, desceu o túnel e encontrou um laboratório e algumas anotações. Você pegou uma vela, leu as anotações e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-corredor.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    <button class="b-avancar" data-avancar="57">Pegar algumas coisas e sair da casa</button>
-                </div>
-            </div>
-        </div><!--passo 24--><div class="passo" id="passo-24">
-            <p>Você foi até lá e descobriu que era um banheiro. Estava muito escuro e você derrubou acidentalmente alguns objetos de lá. Você pegou uma vela e uma navalha, depois ouviu sons no lado de fora do banheiro. O que você fará?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="43">Se esconder no banheiro</button>
-                    <button class="b-avancar" data-avancar="44">Investigar</button>
-                <button class="b-avancar" data-avancar="45">Sair da casa e fugir</button></div>
-            </div>
-        </div><!--passo 25--><div class="passo" id="passo-25">
-            <p>Você foi até lá e depois entrou na sala de estar. A sala estava muito escura e enquanto andava, você esbarrou acidentalmente em um piano, que fez um som alto. Apareceu uma pessoa com uma vela procurando você, mas você se escondeu debaixo da mesa. A pessoa tocou algumas notas do piano e quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura escondida em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você usou seu pé-de-cabra para abrir a passagem secreta, desceu o túnel e encontrou um laboratório e algumas anotações. Você pegou uma vela, leu as anotações e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    <button class="b-avancar" data-avancar="57">Pegar algumas coisas e sair da casa</button>
-                </div>
-            </div>
-        </div><!--passo 26--><div class="passo" id="passo-26">
-            <p>Estava muito escuro e você não encontrou nada. Enquanto você procurava, alguém te pegou por trás, te levou para o porão e te prendeu. Essa pessoa faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 27--><div class="passo" id="passo-27">
-            <p>A porta estava trancada, mas você usou seu pé-de-cabra e a abriu. Você entrou lá, acendeu uma vela e viu que alí era o porão da casa. Enquanto investigava o lugar, você encontrou uma gaiola grande e se aproximou para ver melhor, mas alguém tem empurrou para dentro da gaiola e te prendeu.  Essa pessoa faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 28--><div class="passo" id="passo-28">
-            <p>Você foi até a cozinha e viu que era apenas um rato. Você estava investigando o lugar, mas alguém te pegou e te puxou até uma porta de um cômodo da parte de trás dentro da casa. Você consegue se soltar e corre de volta para a parte da frente da casa, dento dela. O que você fará?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="46">Ir para o andar de cima</button>
-                    
-                <button class="b-avancar" data-avancar="47">Sair da casa e fugir</button><button class="b-avancar" data-avancar="48">Se esconder na cozinha</button><button class="b-avancar" data-avancar="49">Se esconder na sala de estar</button></div>
-            </div>
-        </div><!--passo 29--><div class="passo" id="passo-29">
-            <p>Você percebeu que a aventura era muito perigosa e desistiu, você apenas tirou algumas fotos do lugar, mas nunca descobriu o seu segredo.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 30--><div class="passo" id="passo-30">
-            <p>Você tentou abrir a porta, mas ela estava trancada. Apareceu uma pessoa, que te pegou, te levou para o porão e te prendeu. A pessoa faz parte de uma sociedade secreta que esconde um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 31--><div class="passo" id="passo-31">
-            <p>Você foi até lá e viu que dentro havia uma pequena biblioteca, com muitos livros de biologia e química. Enquanto explorava o cômodo, Apareceu uma pessoa, que te pegou. Você consegue se soltar e vai até um armário na sala de estar, no andar de baixo. A pessoa também foi para a sala para te procurar, depois ela tocou algumas notas de um piano que estava ali. Quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura secreta em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você tinha anotado as teclas do piano que foram tocadas, e depois de tocá-las você pegou a chave, desceu o túnel e encontrou um laboratório e algumas anotações. Você leu elas e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    
-                <button class="b-avancar" data-avancar="56">Pegar algumas coisas e tirar fotos, depois sair da casa</button></div>
-            </div>
-        </div><!--passo 32--><div class="passo" id="passo-32">
-            <p>Você foi até lá, abriu a porta e viu uma pessoa sentada escrevendo algo em um livro sobre a escrivaninha. A pessoa te viu e começou a te perseguir, você desceu a escada, foi até a sala de estar e se escondeu no armário. A pessoa também foi para a sala para te procurar, depois ela tocou algumas notas de um piano que estava ali. Quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura secreta em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você tinha anotado as teclas do piano que foram tocadas, e depois de tocá-las você pegou a chave, desceu o túneu e encontrou um laboratório e algumas anotações. Você leu elas e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    
-                <button class="b-avancar" data-avancar="56">Pegar algumas coisas e tirar fotos, depois sair da casa</button></div>
-            </div>
-        </div><!--passo 33--><div class="passo" id="passo-33">
-            <p>Você foi até a porta, mas a chave não a abriu. Apareceu uma pessoa, que te pegou, te levou para o porão e te prendeu. Essa pessoa faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 34--><div class="passo" id="passo-34">
-            <p>No mapa mostrava que o espelho escondia um túnel secreto. Você percebeu que a chave entrava em uma fechadura escondida no espelho. Quando girou a chave, você percebeu que o espelho era uma porta, mas antes de entrar, apareceu uma pessoa na sala, você se escondeu debaixo da mesa e ela não te viu. A pessoa entrou na passagem secreta e depois de alguns minutos ela saiu e subiu a escada. Você desceu o túnel, encontrou um laboratório e algumas anotações. Você leu elas e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    
-                <button class="b-avancar" data-avancar="56">Pegar algumas coisas e tirar fotos, depois sair da casa</button></div>
-            </div>
-        </div><!--passo 35--><div class="passo" id="passo-35">
-            <p>Você percebeu que a chave entrava em uma fechadura escondida no espelho. Quando girou a chave, você percebeu que o espelho era uma porta que levava a um túnel secreto, mas antes de entrar, apareceu uma pessoa na sala, você se escondeu debaixo da mesa e ela não te viu. A pessoa entrou na passagem secreta e depois de alguns minutos ela saiu e subiu a escada. Você desceu o túnel, encontrou um laboratório e algumas anotações. Você leu elas e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    
-                <button class="b-avancar" data-avancar="56">Pegar algumas coisas e tirar fotos, depois sair da casa</button></div>
-            </div>
-        </div><!--passo 36--><div class="passo" id="passo-36">
-            <p>Você foi investigar e viu que era apenas um rato, depois você foi para a sala de estar. Na sala de estar, você vê vários quadros com pessoas com expressões sérias, móveis antigos, um piano empoeirado, um lareira apagada e, em cima dela, um espelho com moldura de ouro. Você percebe que algumas teclas do piano não estão com poeira, você toca as teclas e tenta fazer várias combinções, até que, em uma delas, ouve um som na parede. Você se aproxima e vê uma pedra um pouco deslocada, você tira a pedra, encontra um mapa da casa, com todas as passagens secretas desenhadas, e uma chave dourada e pega eles. O que você fará em seguida?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="33">Explorar o porão da casa, procurar por pistas ou segredos escondidos</button>
-                    
-                <button class="b-avancar" data-avancar="34">Seguir o mapa encontrado para descobrir possíveis locais ocultos na casa</button><button class="b-avancar" data-avancar="35">Examinar o espelho com moldura de ouro em busca de pistas</button></div>
-            </div>
-        </div><!--passo 37--><div class="passo" id="passo-37">
-            <p>Você se escondeu por alguns minutos, depois saiu e foi para a sala de estar. Na sala de estar, você vê vários quadros com pessoas com expressões sérias, móveis antigos, um piano empoeirado, um lareira apagada e, em cima dela, um espelho com moldura de ouro. Você percebe que algumas teclas do piano não estão com poeira, você toca as teclas e tenta fazer várias combinções, até que, em uma delas, ouve um som na parede. Você se aproxima e vê uma pedra um pouco deslocada, você tira a pedra, encontra um mapa da casa, com todas as passagens secretas desenhadas, e uma chave dourada e pega eles. O que você fará em seguida?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="33">Explorar o porão da casa, procurar por pistas ou segredos escondidos</button>
-                    
-                <button class="b-avancar" data-avancar="34">Seguir o mapa encontrado para descobrir possíveis locais ocultos na casa</button><button class="b-avancar" data-avancar="35">Examinar o espelho com moldura de ouro em busca de pistas</button></div>
-            </div>
-        </div><!--passo 38--><div class="passo" id="passo-38">
-            <p>Você percebeu que a aventura era muito perigosa e desistiu, você apenas tirou algumas fotos do lugar, mas nunca descobriu o seu segredo.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 39--><div class="passo" id="passo-39">
-            <p>Você encontrou uma chave embaixo de um dos móveis, mas ela não abriu a porta trancada. Depois disso, você vai para a parte da frente da casa e encontra uma entrada para a cozinha, outra para a sala de estar e uma escada para o andar de cima. Qual desses lugares você irá?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="12">Subir para o segundo andar</button>
-                    
-                <button class="b-avancar" data-avancar="13">Ir para a sala de estar</button><button class="b-avancar" data-avancar="50">Ir para a cozinha</button></div>
-            </div>
-        </div><!--passo 40--><div class="passo" id="passo-40">
-            <p>No banheiro você encontra alguns objetos nas gavetas e pega uma navalha. Antes de sair você ouve sons no lado de fora do banheiro. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-fundo-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="36">Investigar os sons com a lanterna em mãos</button>
-                    
-                <button class="b-avancar" data-avancar="37">Se esconder no banheiro</button></div>
-            </div>
-        </div><!--passo 41--><div class="passo" id="passo-41">
-            <p>Você foi até lá mas não viu nada, depois você encontrou uma vela e a acendeu. Apareceu uma pessoa, que te pegou e te levou para a porta do porão. Você usou o seu pé-de-cabra para bater nela e correu. O que você fará?</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa-2.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="51">Ir para o andar de cima</button>
-                    
-                <button class="b-avancar" data-avancar="52">Sair da casa e fugir</button><button class="b-avancar" data-avancar="53">Se esconder na cozinha</button><button class="b-avancar" data-avancar="54">Se esconder na sala de estar</button></div>
-            </div>
-        </div><!--passo 42--><div class="passo" id="passo-42">
-            <p>Você percebeu que a aventura era muito perigosa e desistiu, você nunca descobriu o segredo daquele lugar.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 43--><div class="passo" id="passo-43">
-            <p>Você se escondeu por alguns minutos e depois saiu e foi para a sala de estar, mas quando chegou lá viu uma pessoa entrando em uma porta disfarçada de espelho. Você se escondeu debaixo da mesa e esperou a pessoa sair de lá e ir para o outro cômodo, quando isso aconteceu você usou seu pé-de-cabra para abrir a passagem secreta, desceu o túnel e encontrou um laboratório e algumas anotações. Você pegou uma vela, leu as anotações e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    <button class="b-avancar" data-avancar="57">Pegar algumas coisas e sair da casa</button>
-                </div>
-            </div>
-        </div><!--passo 44--><div class="passo" id="passo-44">
-            <p>Você usou a vela para procurar o que fez o som, mas alguém te pegou por trás, te levou para o porão e te prendeu. Essa pessoa faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 45--><div class="passo" id="passo-45">
-            <p>Você percebeu que a aventura era muito perigosa e desistiu, você nunca descobriu o segredo do lugar.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 46--><div class="passo" id="passo-46">
-            <p>Você estava subindo a escada correndo e tropeçou. A pessoa pegou você, te levou para o porão da casa e te prendeu e você nunca mais pode sair daquele lugar. A pessoa que te pegou faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 47--><div class="passo" id="passo-47">
-            <p>Você conseguiu escapar daquele lugar e nunca mais voltou. Você apenas tirou algumas fotos, mas o segredo que existia na casa nunca foi descoberto.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 48--><div class="passo" id="passo-48">
-            <p>A pessoa voltou para a cozinha, te achou e te levou para o porão da casa, onde você ficou preso e nunca mais pode sair. A pessoa que te pegou faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 49--><div class="passo" id="passo-49">
-            <p>Você foi até lá e se escondeu dentro de um armário. A pessoa também foi para a sala para te procurar, depois ela tocou algumas notas de um piano que estava ali. Quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura secreta em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você tinha anotado as teclas do piano que foram tocadas, e depois de tocá-las você pegou a chave, desceu o túnel e encontrou um laboratório e algumas anotações. Você leu elas e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    
-                <button class="b-avancar" data-avancar="56">Pegar algumas coisas e tirar fotos, depois sair da casa</button></div>
-            </div>
-        </div><!--passo 50--><div class="passo" id="passo-50">
-            <p>Você foi para a cozinha, ficou alguns minutos investigando, mas apareceu uma pessoa, que te pegou, te levou para o porão e te prendeu. A pessoa faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 51--><div class="passo" id="passo-51">
-            <p>Você estava subindo a escada correndo e tropeçou. A pessoa pegou você, te levou para o porão da casa e te prendeu e você nunca mais pode sair daquele lugar. A pessoa que te pegou faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 52--><div class="passo" id="passo-52">
-            <p>Você conseguiu escapar daquele lugar e nunca mais voltou. O segredo que existia na casa nunca foi descoberto.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 53--><div class="passo" id="passo-53">
-            <p>A pessoa voltou para a cozinha, te achou e te levou para o porão da casa, onde você ficou preso e nunca mais pode sair. A pessoa que te pegou faz parte de uma sociedade secreta que guarda um grande segredo que você nunca saberá.</p>
-            <div class="parte-inferior">
-                <img src="imagem-casa.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 54--><div class="passo" id="passo-54">
-            <p>Você foi até lá e se escondeu dentro de um armário. A pessoa foi para a sala com uma vela para te procurar, depois ela tocou algumas notas de um piano que estava alí, quando fez isso, uma das pedras da parede se deslocou um pouco e a pessoa pegou uma chave ali dentro e colocou ela em uma fechadura escondida em um espelho, que era uma porta para um túnel secreto. A pessoa desceu pelo túnel e depois de alguns minutos saiu e subiu a escada para o segundo andar. Você usou seu pé-de-cabra para abrir a passagem secreta, desceu o túnel e encontrou um laboratório e algumas anotações. Você pegou uma vela, leu as anotações e descobriu que o morador da casa faz parte de uma sociedade secreta que quer criar a fórmula da vida eterna. Você também encontrou uma lista com os ingredientes restantes para terminá-la. Qual será sua próxima ação?</p>
-            <div class="parte-inferior">
-                <img src="imagem-sala.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="55">Pegar os ingredientes restantes</button>
-                    <button class="b-avancar" data-avancar="57">Pegar algumas coisas e sair da casa</button>
-                </div>
-            </div>
-        </div><!--passo 55--><div class="passo" id="passo-55">
-            <p>Você pegou todos os ingredientes que faltavam, todos estavam na casa. Você também descobriu que o morador e a sociedade secreta já tinham feito a fórmula antes e se tornaram imortais e agora você tem a opção de também se tornar. O que você fará?</p>
-            <div class="parte-inferior">
-                <img src="imagem-laboratorio.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="58">Ficar com a fórmula, sair da casa e mostrar o segredo para os outros</button>
-                    <button class="b-avancar" data-avancar="59">Usar isso e se tornar imortal</button>
-                </div>
-            </div>
-        </div><!--passo 56--><div class="passo" id="passo-56">
-            <p>Você descobriu o segredo da casa e pode mostrar as fotos e os objetos do lugar para as pessoas. Agora todos sabem que você teve coragem de explorar a casa misteriosa.</p>
-            <div class="parte-inferior">
-                <img src="imagem-laboratorio.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 57--><div class="passo" id="passo-57">
-            <p>Você descobriu o segredo da casa e pode mostrar os objetos do lugar para as pessoas. Agora todos sabem que você teve coragem de explorar a casa misteriosa.</p>
-            <div class="parte-inferior">
-                <img src="imagem-laboratorio.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 58--><div class="passo" id="passo-58">
-            <p>Você revelou o segredo daquele lugar e agora todos sabem que você teve coragem de explorar a casa misteriosa e que conseguiu a fórmula da vida eterna.</p>
-            <div class="parte-inferior">
-                <img src="imagem-laboratorio.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div><!--passo 59--><div class="passo" id="passo-59">
-            <p>Você escolheu ter vida eterna. O segredo da casa foi revelado e todos saberão que você teve coragem de explorar a casa misteriosa, para
- sempre.</p>
-            <div class="parte-inferior">
-                <img src="imagem-laboratorio.png" alt="">
-                <div class="botoes">
-                    <button class="b-avancar" data-avancar="0">Jogar novamente</button>
-                    
-                </div>
-            </div>
-        </div></main>
-    <script src="script.js"></script>
 
+<body>
+    <main>
+        <header>Preso na Floresta</header>
+
+        <section>
+            <!--passo 0-->
+            <div class="passo ativo" id="passo-0">
+                <p>Você estava andando de carro e pegou um atalho em uma estrada de terra para chegar mais rápido ao
+                    destino, mas estava escuro e chovendo e você perde o controle do carro, sai da estrada e o carro
+                    fica atolado na lama. Escolha o que você irá fazer:</p>
+
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="1">Tentar empurrar o carro para sair da lama</button>
+                        <button class="btn-proximo" data-proximo="2">Seguir a estrada de terra a pé</button>
+                        <button class="btn-proximo" data-proximo="3">Verificar se há algum objeto no carro que possa
+                            ajudar na situação</button>
+                        <button class="btn-proximo" data-proximo="4">Utilizar galhos ou pedaços de madeira como alavanca
+                            para tentar desatolar</button>
+                        <button class="btn-proximo" data-proximo="5">Chamar um serviço de guincho para auxiliar na
+                            remoção do veículo</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 1-->
+            <div class="passo" id="passo-1">
+                <p>Você não conseguiu tirar o carro da lama. Escolha o que você irá fazer:</p>
+
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="2">Seguir a estrada de terra a pé</button>
+                        <button class="btn-proximo" data-proximo="3">Verificar se há algum objeto no carro que possa
+                            ajudar na situação</button>
+                        <button class="btn-proximo" data-proximo="4">Utilizar galhos ou pedaços de madeira como alavanca
+                            para tentar desatolar</button>
+                        <button class="btn-proximo" data-proximo="6">Chamar um serviço de guincho para auxiliar na
+                            remoção do veículo</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 2-->
+            <div class="passo" id="passo-2">
+                <p>Depois de um tempo, você ficou com fome. Escolha o que você irá fazer:</p>
+
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="7">Procurar por frutas ou vegetais para comer</button>
+                        <button class="btn-proximo" data-proximo="8">Montar uma armadilha para caçar pequenos
+                            animais</button>
+                        <button class="btn-proximo" data-proximo="9">Explorar a região em busca de um riacho para
+                            pescar</button>
+                        <button class="btn-proximo" data-proximo="10">Continuar a andar</button>
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 3-->
+            <div class="passo" id="passo-3">
+                <p>Escolha a primeira coisa que você irá fazer:</p>
+
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="11">Verificar se há uma lanterna para melhor
+                            visualização</button>
+                        <button class="btn-proximo" data-proximo="12">Buscar por uma pá ou enxada para tentar cavar e
+                            desatolar o carro</button>
+                        <button class="btn-proximo" data-proximo="13">Verificar se há um cobertor ou agasalho para se
+                            proteger do frio e da chuva</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 4-->
+
+            <div class="passo" id="passo-4">
+                <p>Você estava procurando um galho, mas apareceu uma cobra. Escolha o que você irá fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="2">Seguir a estrada de terra a pé</button>
+
+                        <button class="btn-proximo" data-proximo="14">fugir para dentro da floresta</button>
+                    </div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div>
+            <!--passo 5-->
+            <div class="passo" id="passo-5">
+                <p>Não tem sinal de celular. Escolha o que você irá fazer: </p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="4">Utilizar galhos ou pedaços de madeira como alavanca
+                            para tentar desatolar</button>
+                        <button class="btn-proximo" data-proximo="3">Verificar se há algum objeto no carro que possa
+                            ajudar na situação</button>
+                        <button class="btn-proximo" data-proximo="15">Tentar empurrar o carro para sair da lama</button>
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 6-->
+            <div class="passo" id="passo-6">
+                <p>Você percebeu que não tem sinal de celular e depois de um tempo você viu uma cobra. Escolha o que
+                    você irá fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="16">Procurar por algum objeto para se proteger caso a
+                            cobra se aproxime</button>
+                        <button class="btn-proximo" data-proximo="30">Fugir</button>
+
+                    </div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 7-->
+            <div class="passo" id="passo-7">
+                <p>Você encontrou frutas, mas ficou perdido. Escolha o que você irá fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="17">Observar a lua para tentar identificar a
+                            direção</button>
+                        <button class="btn-proximo" data-proximo="18">Procurar por um abrigo temporário para passar a
+                            noite</button>
+
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div>
+
+            <!--passo 8-->
+            <div class="passo" id="passo-8">
+                <p>Você conseguiu montar uma armadilha, mas não conseguiu pegar nenhum animal. Escolha o que você irá fazer:</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="7">Procurar por frutas ou vegetais para comer</button>
+                        <button class="btn-proximo" data-proximo="10">Voltar a seguir a estrada de terra</button>
+
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div>
+        <!--passo 9--><div class="passo" id="passo-9">
+                <p>
+    Você não encontrou nenhum riacho e se perdeu. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="17">Observar a lua para tentar identificar a direção</button>
+                        <button class="btn-proximo" data-proximo="18">Procurar por um abrigo temporário para passar a noite</button>
+
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 10--><div class="passo" id="passo-10">
+                <p>Você estava andando e ouviu um rugido. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="19">Investigar de onde vem o rugido</button>
+                        <button class="btn-proximo" data-proximo="20">Ficar em alerta, observar o ambiente e continuar andando</button>
+
+                    <button class="btn-proximo" data-proximo="21">Tentar fazer barulho para assustar o animal</button><button class="btn-proximo" data-proximo="22">Pegar um galho para se proteger</button><button class="btn-proximo" data-proximo="23">Fugir e voltar depois de um tempo</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 11--><div class="passo" id="passo-11">
+                <p>Você encontrou uma lanterna, mas ela não tinha pilhas. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="24">procurar pilhas no carro</button>
+                        <button class="btn-proximo" data-proximo="25">Usar o celular como lanterna e procurar um agasalho</button>
+
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div><!--passo 12--><div class="passo" id="passo-12">
+                <p>Você não encontrou uma pá ou uma enxada e você ouviu um som de cobra. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="33">Observar o comportamento da cobra e tentar identificar se é venenosa</button>
+                        <button class="btn-proximo" data-proximo="30">Fugir</button>
+
+                    </div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div><!--passo 13--><div class="passo" id="passo-13">
+                <p>Você encontrou um agasalho, mas ouviu um som estranho. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="26">Investigar o som para identificar a origem</button>
+                        <button class="btn-proximo" data-proximo="27">Procurar por lanterna para iluminar o ambiente</button>
+
+                    </div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div><!--passo 14--><div class="passo" id="passo-14">
+                <p>Você ficou perdido. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="28">Buscar por alimentos</button>
+                        <button class="btn-proximo" data-proximo="29">Tentar subir em um ponto alto para ter uma visão melhor da região</button>
+
+                    <button class="btn-proximo" data-proximo="31">Construir um abrigo improvisado para se proteger do clima</button><button class="btn-proximo" data-proximo="32">Tentar acender uma fogueira para se manter aquecido e sinalizar por ajuda</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 15--><div class="passo" id="passo-15">
+                <p>Você estava tentando empurrar o carro, mas você encontrou uma cobra. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="33">Observar o comportamento da cobra e tentar identificar se é venenosa</button>
+                        <button class="btn-proximo" data-proximo="34">Fugir</button>
+
+                    </div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div><!--passo 16--><div class="passo" id="passo-16">
+                <p>Você pegou um graveto curto, mas não adiantou, a cobra te mordeu quando se aproximou e você morreu.
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="0">Tentar denovo</button>
+                        
+
+                    </div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div><!--passo 17--><div class="passo" id="passo-17">
+                <p>Você encontrou a estrada de terra, depois de um tempo você encontrou uma estrada de asfalto, um carro passou e você pediu ajuda. Você conseguiu sair da floresta.
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="0">Reiniciar</button>
+                        
+
+                    </div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 18--><div class="passo" id="passo-18">
+                <p>Você encontrou uma caverna e dormiu lá. Escolha o que você irá fazer no próximo dia:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        <button class="btn-proximo" data-proximo="35">Explorar dentro da caverna</button>
+                        
+
+                    <button class="btn-proximo" data-proximo="36">Procurar por uma fonte de água potável no lado de fora</button><button class="btn-proximo" data-proximo="36">Seguir o Sol para tentar encontrar a estrada de terra</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 19--><div class="passo" id="passo-19">
+                <p>Você foi investigar o rugido, encontrou uma onça, ela te atacou e você morreu.
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="0">Tentar denovo</button></div>
+                    <img src="imagem-onça.png" alt="">
+                </div>
+            </div><!--passo 20--><div class="passo" id="passo-20">
+                <p>Você viu uma onça na direção que você estava andando. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="48">Fugir correndo e voltar depois</button><button class="btn-proximo" data-proximo="37">Dar a volta pela floresta</button><button class="btn-proximo" data-proximo="23">Ficar calmo, evitar movimentos bruscos, sair e voltar depois</button></div>
+                    <img src="imagem-onça.png" alt="">
+                </div>
+            </div><!--passo 21--><div class="passo" id="passo-21">
+                <p>Uma onça apareceu, te atacou e você morreu
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="0">Tentar denovo</button></div>
+                    <img src="imagem-onça.png" alt="">
+                </div>
+            </div><!--passo 22--><div class="passo" id="passo-22">
+                <p>Você pegou um galho para se proteger, depois de um tempo apereceu uma onça que te atacou e você morreu.
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="0">Tentar denovo</button></div>
+                    <img src="imagem-onça.png" alt="">
+                </div>
+            </div><!--passo 23--><div class="passo" id="passo-23">
+                <p>Você fugiu, depois de um tempo você voltou, você andou por muito tempo, conseguiu voltar para estrada de asfalto e pediu ajuda. Você conseguiu sair da floresta.
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="0">Reiniciar</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 24--><div class="passo" id="passo-24">
+                <p>Você encontrou pilhas, ligou a lanterna e quando saiu do carro você viu pegadas grandes de um animal. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="36">Seguir as pegadas para tentar identificar o animal</button><button class="btn-proximo" data-proximo="10">Seguir a estrada</button></div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div><!--passo 25--><div class="passo" id="passo-25">
+                <p>Você encontrou um agasalho, mas ouviu um som estranho. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="38">Ignorar</button><button class="btn-proximo" data-proximo="26">Investigar o som para identificar a origem</button></div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div><!--passo 26--><div class="passo" id="passo-26">
+                <p>Você estava procurando o som, uma cobra te mordeu e você morreu.
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="0">Tentar denovo</button></div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div><!--passo 27--><div class="passo" id="passo-27">
+                <p>Você encontrou uma lanterna, mas ela não tinha pilhas. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="39">Procurar por pilhas de reserva no carro</button><button class="btn-proximo" data-proximo="40">Utilizar o celular como fonte de luz</button></div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div><!--passo 28--><div class="passo" id="passo-28">
+                <p>Você encontrou uma lanterna, mas ela não tinha pilhas. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="41">Comer</button><button class="btn-proximo" data-proximo="42">Não comer</button><button class="btn-proximo" data-proximo="43">Provar uma pequena quantidade para determinar se são comestíveis</button></div>
+                    <img src="imagem-carro.png" alt="">
+                </div>
+            </div><!--passo 29--><div class="passo" id="passo-29">
+                <p>Você escalou uma árvore, mas você caiu e se machucou. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="44">Tentar escalar novamente</button><button class="btn-proximo" data-proximo="44">Desistir</button><button class="btn-proximo" data-proximo="45">procurar outro ponto alto</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 30--><div class="passo" id="passo-30">
+                <p>Você estava fugindo, mas uma aranha venenosa te mordeu e você morreu
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="0">Tentar denovo</button></div>
+                    <img src="imagem-aranha.png" alt="">
+                </div>
+            </div><!--passo 31--><div class="passo" id="passo-31">
+                <p>Enquanto você estava procurando materiais para fazer um abrigo, uma aranha venenosa te mordeu e você morreu.
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="0">Tentar denovo</button></div>
+                    <img src="imagem-aranha.png" alt="">
+                </div>
+            </div><!--passo 32--><div class="passo" id="passo-32">
+                <p>Você não conseguiu acender uma fogueira por causa da chuva. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="31">Construir um abrigo improvisado para se proteger do clima</button><button class="btn-proximo" data-proximo="28">Buscar por alimentos</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 33--><div class="passo" id="passo-33">
+                <p>A cobra parecia ser venenosa e estava indo na sua direção. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="46">Recuar lentamente sem fazer movimentos bruscos</button><button class="btn-proximo" data-proximo="47">Procurar por objetos ao redor para se proteger, como um galho longo</button><button class="btn-proximo" data-proximo="47">Fazer barulho alto para tentar assustar a cobra</button></div>
+                    <img src="imagem-cobra.png" alt="">
+                </div>
+            </div><!--passo 34--><div class="passo" id="passo-34">
+                <p>Você fugiu e ficou perdido. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="28">Buscar por alimentos</button><button class="btn-proximo" data-proximo="29">Tentar subir em um ponto alto para ter uma visão melhor da região</button><button class="btn-proximo" data-proximo="31">Construir um abrigo improvisado para se proteger do clima</button><button class="btn-proximo" data-proximo="32">Tentar acender uma fogueira para se manter aquecido e sinalizar por ajuda</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 35--><div class="passo" id="passo-35">
+                <p>Você percebeu que a caverna era pequena e não tinha nada de importante nela. Escolha o que você vai fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="36">Procurar por uma fonte de água potável no lado de fora</button><button class="btn-proximo" data-proximo="36">Seguir o Sol para tentar encontrar a estrada de terra</button></div>
+                    <img src="imagem-floresta.png" alt="">
+                </div>
+            </div><!--passo 36--><div class="passo" id="passo-36">
+                <p>Você encontrou uma onça. Escolha o que você irá fazer:
+</p>
+                <div class="parte-baixo">
+                    <div class="botao">
+                        
+                        
+
+                    <button class="btn-proximo" data-proximo="48">Tentar se comunicar de forma calma e não ameaçadora</button><button class="btn-proximo" data-proximo="48">Fazer barulho e tentar assustar a onça</button><button class="btn-proximo" data-proximo="48">Fugir correndo</button><button class="btn-proximo" data-proximo="49">Retroceder lentamente sem virar as costas</button><button class="btn-proximo" data-proximo="49">Procurar por objetos para se proteger, como pedras ou galhos</button></div>
+                    <img src="imagem-onça.png" alt="">
+                </div>
+            </div></section>
+    </main>
+    <script src="script.js"></script>
 
 
 
