@@ -38,6 +38,9 @@ button {
     border-radius: 100px;
     cursor: pointer;
 }
+.b-avancar.b {
+   max-width: 100px;
+}
 
 .botoes {
 }
