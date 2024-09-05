@@ -1,73 +1,92 @@
-header{
-    padding-top: 1.5%;
-    padding-bottom: 1%;
-    padding-left: 5%;
-    color: #ffcd48;
-    font-size: 20px;
-    border-bottom: solid 1px white;
+.passo{
+    display: none;
 }
-body {
-    font-family: Quicksand;
-    background: #101010;
-    color: white;
+
+.passo.ativo{
+    display: block;
+}
+
+
+body{
+    background-color: #354136;
     margin: 0px;
-
-    
-}
-main {
-    padding-top: 1%;
-    padding-left: 0px;
-    padding-bottom: 4%;
-    margin-top: 5%;
-    background: #0f1522;
-    margin-left: 20%;
-    margin-right: 20%;
-    justify-content: center;
-}
-}
-p {
-    font-size: 25px;
-
-}
-button {
-    font-family: Quicksand;
-    padding: 10px;
-    max-width: 30%;
     color: white;
-    border: solid 2.5px #ffcd48;
-    margin: 10px;
-    background: #101010;
-    border-radius: 100px;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    border-bottom: solid 2px #77fa84;
+    background: #254228;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    text-shadow: 8px 6px 6px black;
+}
+
+section{
+    background: #3d6541;
+    margin: 45px;
+    border: solid 2px #77fa84;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 35px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+button{
+    background: #254228;
+    color: white;
+    margin: 7.5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border: 0px;
+    border-top: solid 1px #77fa84;
+    border-left: solid 1px #77fa84;
+    padding: 12.5px;
+    font-size: 16px;
+    box-shadow: 4px 3px 4px 0px black;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
     cursor: pointer;
 }
 
-.botoes {
-
+button:hover{
+    padding: 13px;
+    background: #29492c;
+    border-top: solid 2px #77fa84;
+    border-left: solid 2px #77fa84;
+    border-bottom: solid 1px #77fa84;
+    border-right: solid 1px #77fa84;
+    box-shadow: 4px 4px 10px 3px black;
 }
 
-button:hover {
-    background: #ffcd48;
-    color: black;
-    border: solid 2.5px #101010;
+img{
+    max-width:40%;
+    margin: 1%;
 }
 
-.passo {
-    display: none;
-
-
-}  
-.passo.ativo {
-    display: block;
-    text-align: center;
-
-}
-img {
-    max-width: 40%;
-    align-items: center;
-}
-.parte-inferior {
+.botao{
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
-    align-items: center;
-
 }
+
+.parte-baixo{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
