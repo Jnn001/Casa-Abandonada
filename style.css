@@ -2,26 +2,32 @@ header{
     padding-top: 1.5%;
     padding-bottom: 1%;
     padding-left: 5%;
-    color: #ffcd48;
+    color: #ffdf89;
     font-size: 20px;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px #ffffff;
+    box-shadow: 0px 1px 4px 0px #ededed;
+    text-shadow: 1px 1px 6px #ffb900;
 }
 body {
     font-family: Quicksand;
     background: #101010;
     color: white;
     margin: 0px;
-    
+
 }
 main {
     padding-top: 1%;
-    padding-left: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-bottom: 4%;
     margin-top: 5%;
     background: #0f1522;
-    margin-left: 20%;
-    margin-right: 20%;
+    border: solid white 1px;
+    margin-left: 15%;
+    margin-right: 15%;
     justify-content: center;
+    box-shadow: 1px 1px 9px 0px #d7d7d7;
+    border-radius: 15px;
 }
 }
 p {
@@ -32,11 +38,12 @@ button {
     padding: 10px;
     max-width: 30%;
     color: white;
-    border: solid 2.5px #ffcd48;
+    border: solid 2.5px #ffdb7a;
     margin: 10px;
     background: #101010;
     border-radius: 100px;
     cursor: pointer;
+    box-shadow: 0px 0px 8px 0px #ffc01b;
 }
 .b-avancar.b {
    max-width: 100px;
@@ -47,7 +54,8 @@ button {
 button:hover {
     background: #ffcd48;
     color: black;
-    border: solid 2.5px #101010;
+    border: solid 2.5px #ffcd48;
+    box-shadow: 0px 0px 20px 3px #ffc736;
 }
 .passo {
     display: none;
@@ -59,6 +67,8 @@ button:hover {
 img {
     max-width: 40%;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0px #070a10;
 }
 .parte-inferior {
     display: flex;
